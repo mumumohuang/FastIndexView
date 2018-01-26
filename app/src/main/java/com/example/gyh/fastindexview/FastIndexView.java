@@ -95,7 +95,6 @@ public class FastIndexView extends View {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-//        Toast.makeText(mContext,"我被点击了",Toast.LENGTH_SHORT).show();
         int action = event.getAction();
         switch (action) {
             case MotionEvent.ACTION_DOWN:
